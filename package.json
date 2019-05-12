@@ -1,0 +1,28 @@
+{
+  "name": "szm-cli",
+  "version": "1.0.0",
+  "description": "some cli for creating your projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IOJINDD/szm-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "zhiming.su",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IOJINDD/szm-cli/issues"
+  },
+  "homepage": "https://github.com/IOJINDD/szm-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.20.0"
+  }
+}
