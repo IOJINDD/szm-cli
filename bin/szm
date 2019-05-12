@@ -15,16 +15,8 @@ program
   .usage('<command>')
 
 program
-  .command('add')
-  .description('Add a new template')
-  .alias('a')
-  .action(() => {
-    require('../command/add')()
-  })
-
-program
   .command('list')
-  .description('List all the templates')
+  .description('展示所有的项目模板')
   .alias('l')
   .action(() => {
     require('../command/list')
@@ -38,13 +30,6 @@ program
     require('../command/init')()
   })
 
-program
-  .command('delete')
-  .description('Delete a template')
-  .alias('d')
-  .action(() => {
-    require('../command/delete')()
-  })
 
 program.parse(process.argv)
 if(!program.args.length) {
