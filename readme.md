@@ -1,0 +1,14 @@
+-![cdt Logo](logo.jpg)
+-
+-PC端,移动端 脚手架
+-
+-# Installation
+-```
+-npm install cdt-cli -g
+-```
+-szm init
+-
+-Commands:
+- init|i         新建一个项目
+-
+-

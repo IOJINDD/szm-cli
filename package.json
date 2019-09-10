@@ -1,6 +1,6 @@
 {
   "name": "szm-cli",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "some cli for creating your projects",
   "main": "index.js",
   "scripts": {

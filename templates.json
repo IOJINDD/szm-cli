@@ -1,7 +1,15 @@
 {
     "tpl": {
       "vue-pc": {
-        "url": "https://github.com/IOJINDD/vue-pc",
+        "gitUrl": "https://github.com/IOJINDD/vue-pc",
+        "branch": "master"
+      },
+      "vue-mp": {
+        "gitUrl": "https://github.com/IOJINDD/vue-mp",
+        "branch": "master"
+      },
+      "cdt-pc": {
+        "gitUrl": "https://github.com/IOJINDD/cdt-pc",
         "branch": "master"
       }
     }

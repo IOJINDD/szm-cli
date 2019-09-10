@@ -7,7 +7,7 @@ const chalk = require('chalk')
 
 module.exports = () => {
     co(function *() {
-        let tplName = yield prompt('选择模板名称：')
+        let tplName = yield prompt('选择模板名称(vue-pc, vue-mp)：')
         let projectName = yield prompt('项目名称：')
         let gitUrl
         let branch
@@ -17,7 +17,7 @@ module.exports = () => {
         }
         gitUrl = config.tpl[tplName].gitUrl
         branch = config.tpl[tplName].branch
-        let cmdStr = `git clone -b ${branch} ${gitUrl} ${projectName}`
+        let cmdStr = `git clone ${gitUrl} ${projectName} && cd ${projectName} && git checkout ${branch}`
         console.log(chalk.white('\n Start generating...'))
         exec(cmdStr, (error, stdout, stderr) => {
             if (error) {
